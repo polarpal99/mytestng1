@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="test.com.itexps.CarTest" duration-ms="140" started-at="2020-02-08T22:28:25Z" finished-at="2020-02-08T22:28:25Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="140" started-at="2020-02-08T22:28:25Z" finished-at="2020-02-08T22:28:25Z">
+      <class name="test.com.itexps.CarTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:test.com.itexps.CarTest@1fbc7afb]" name="setUpClass" is-config="true" duration-ms="15" started-at="2020-02-08T16:28:25Z" finished-at="2020-02-08T16:28:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:test.com.itexps.CarTest@1fbc7afb]" name="setUpMethod" is-config="true" duration-ms="125" started-at="2020-02-08T16:28:25Z" finished-at="2020-02-08T16:28:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:test.com.itexps.CarTest@1fbc7afb]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2020-02-08T16:28:25Z" finished-at="2020-02-08T16:28:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="testCar()[pri:0, instance:test.com.itexps.CarTest@1fbc7afb]" name="testCar" duration-ms="0" started-at="2020-02-08T16:28:25Z" finished-at="2020-02-08T16:28:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCar -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:test.com.itexps.CarTest@1fbc7afb]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2020-02-08T16:28:25Z" finished-at="2020-02-08T16:28:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- test.com.itexps.CarTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- test.com.itexps.CarTest -->
+</testng-results>
