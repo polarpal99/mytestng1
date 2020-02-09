@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
-        <action>
-            <actionName>CUSTOM-cobertura</actionName>
-            <displayName>cobertura</displayName>
+    <action>
+        <actionName>CUSTOM-cobertura</actionName>
+        <displayName>cobertura</displayName>
+        <goals>
+            <goal>cobertura:cobertura</goal>
+        </goals>
+        <!--activatedProfiles>
+            <activatedProfile>cobertura</activatedProfile>
+        </activatedProfiles-->
+    </action>
+    <action>
+            <actionName>CUSTOM-Build, run, and test</actionName>
+            <displayName>Build, run, and test</displayName>
             <goals>
+                <goal>clean</goal>
                 <goal>cobertura:cobertura</goal>
+                <goal>site</goal>
             </goals>
-            <activatedProfiles>
-                <activatedProfile>cobertura</activatedProfile>
-            </activatedProfiles>
         </action>
-    </actions>
+</actions>
