@@ -20,12 +20,21 @@
             <version>6.8</version>
             <scope>test</scope>
         </dependency>
+	    
         <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-site-plugin -->
         <dependency>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-site-plugin</artifactId>
             <version>3.7.1</version>
-        </dependency>
+	</dependency>
+	    
+	<dependency>
+	    <groupId>org.apache.maven.plugins</groupId>
+	    <artifactId>maven-project-info-reports-plugin</artifactId>
+	    <version>3.0.0</version>
+	    <type>maven-plugin</type>
+	</dependency>
+
     </dependencies>
     
     <pluginRepositories>
