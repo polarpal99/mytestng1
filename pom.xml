@@ -21,7 +21,7 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-       <pluginRepositories>
+    <pluginRepositories>
         <pluginRepository>
             <id>central</id>
             <name>Central Repository</name>
